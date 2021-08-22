@@ -69,6 +69,7 @@
                 position: absolute;
                 bottom: 10%;
                 font-family: 'Roboto', sans-serif;
+                text-align: center;
             }
             
             select {
@@ -154,18 +155,23 @@
                     margin-right: 20px;
                 }
                 .input {
-                    padding: 11px 9px;
+                    padding: 11.2px 9px;
                     width: 50%;
                 }
                 .select:after {
                     margin-right: 20px;
                     width: 5%;
-                    height: 0;
+                    height: 10%;
                     padding-top: 10px;
                     padding-right: 18px;
                     padding-left: 7px;
                 }
                 .form {
                     margin-right: 60px;
+                    margin-top: 50px;
+                }
+                .result {
+                    font-size: 14px;
+                    text-align: center;
                 }
             }
