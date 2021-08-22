@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
 
 
-    fetch('https://api.exchangeratesapi.io/v1/latest?access_key=86462d983c84f531e9d955645a2d57af')
+    fetch('http://api.exchangeratesapi.io/v1/latest?access_key=86462d983c84f531e9d955645a2d57af')
 
     .then(response => response.json())
 
